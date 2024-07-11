@@ -1,6 +1,6 @@
 # Ants vs. Some Bees
 
-**This is one of the projects assigned to students in cs61a of UC Berkeley. This project is fairly easy but is really fun to do, for source files checkout: https://github.com/n0rea5on/CS61A-2020-Fall-Metarials-Mirror.**
+**This is one of the projects assigned to students in cs61a of UC Berkeley. This project is fairly simple but is really fun to do, for source files check out: https://github.com/n0rea5on/CS61A-2020-Fall-Metarials-Mirror.**
 
 #### 1.
 
@@ -29,7 +29,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![](./assets/insects/ant_harvester.gif)
 
   | Cost | Armor |
-  | ----- | ----- |
+  | ---- | ----- |
   | 2    | 1     |
 
   >Acuires one food per round. Deals absolutely zero damage.
@@ -40,7 +40,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   <img src="./assets/insects/ant_thrower.gif" alt="alt" style="zoom: 33%;" />
 
   | Cost | Armor | Damage |
-  | ------ | ------ | ------ |
+  | ---- | ----- | ------ |
   | 3    | 1     | 1      |
 
   > Attacks the first bee in front of it in its line.
@@ -50,7 +50,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   <img src="./assets/insects/ant_shortthrower.gif" alt="alt" style="zoom:33%;" />
 
   | Cost | Armor | Damage |
-  | ------ | ------ | ------ |
+  | ---- | ----- | ------ |
   | 2    | 1     | 1      |
 
   > Attacks the first bee no farther than three blocks in front of it.
@@ -60,7 +60,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   <img src="./assets/insects/ant_longthrower.gif" alt="alt" style="zoom:33%;" />
 
   | Cost | Armor | Damage |
-  | ------ | ------ | ------ |
+  | ---- | ----- | ------ |
   | 2    | 1     | 1      |
 
   > Attacks the first bee no nearer than five blocks in front of it.
@@ -70,7 +70,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![alt](./assets/insects/ant_fire.gif)
 
   | Cost | Armor | Damage  |
-  | ------- | ------- | ------- |
+  | ---- | ----- | ------- |
   | 5    | 3     | Depends |
 
   > Reflects the damage it recieves to ALL of the bees in its 'Space'. Deals an additional 3 damage when it is destroyed.
@@ -80,7 +80,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![alt](./assets/insects/ant_hungry.gif)
 
   | Cost | Armor | Damage   |
-  | -------- | -------- | -------- |
+  | ---- | ----- | -------- |
   | 4    | 1     | Infinity |
 
   > Eats the bee in its place, and then spend three rounds chewing.
@@ -90,7 +90,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![alt](./assets/insects/ant_wall.gif)
 
   | Cost | Armor |
-  | ----- | ----- |
+  | ---- | ----- |
   | 4    | 4     |
 
   > Blocks the bees.
@@ -100,7 +100,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![](./assets/insects/ant_scuba.gif)
 
   | Cost | Armor | Damage |
-  | ----- | ----- | ------ |
+  | ---- | ----- | ------ |
   | 6    | 1     | 1      |
 
   > A special kind of Thrower Ant that can live in water(and also on land).
@@ -110,7 +110,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![](./assets/insects/ant_queen.gif)
 
   | Cost | Armor | Damage |
-  | ------ | ------ | ------ |
+  | ---- | ----- | ------ |
   | 7    | 1     | 1      |
 
   > This one is fairly complicated.
@@ -128,7 +128,7 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   ![](./assets/insects/ant_ninja.gif)
 
   | Cost | Armor | Damage |
-  | ------ | ------ | ------ |
+  | ---- | ----- | ------ |
   | 5    | --    | 1      |
 
   >  The Ninja Ant doesn't block the bees' path, but damages them as they pass by.
@@ -138,8 +138,8 @@ There are all sorts of ants you can use to defend against the bees. And I'm goin
   <img src="./assets/insects/ant_bodyguard.gif" style="zoom:33%;" />
 
   | Cost | Armor |
-  | ----- | ----- |
-  | 4   | 2    |
+  | ---- | ----- |
+  | 4    | 2     |
 
   > The Bodyguard Ant is a type of Container Ant, which means it can be put in a 'place' that an ant already occpies.
 
